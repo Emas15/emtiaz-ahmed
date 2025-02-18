@@ -156,7 +156,11 @@ body.dark-theme {
   border-radius: 50%;
   object-fit: cover;
 }
-
+.siam {
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
 .profile__border {
   border: 3.5px solid var(--first-color);
   justify-self: center;
@@ -491,7 +495,9 @@ body.dark-theme {
   }
 
   .profile__perfil img {
-    width: 90px;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
   }
 
   .profile__profession {
